@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 # _*_ coding: utf-8 _*_
+
 import sys
-from modul import add, select, list_d, help_d
+from modules.add import add
+from modules.help_d import help_d
+from modules.list_d import list_d
+from modules.select import select
+
 if __name__ == '__main__':
     manlist = []
     while True:
