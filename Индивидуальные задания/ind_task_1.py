@@ -2,10 +2,10 @@
 # _*_ coding: utf-8 _*_
 
 import sys
-from Packet.add import add
-from Packet.help_d import help_d
-from Packet.list_d import list_d
-from Packet.select import select
+from Packet import add
+from Packet import help_d
+from Packet import list_d
+from Packet import select
 
 if __name__ == '__main__':
     manlist = []
